@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/react-candlestick-chart-demo.iml
+/.idea/vcs.xml
