@@ -25,3 +25,4 @@ yarn-error.log*
 /.idea/modules.xml
 /.idea/react-candlestick-chart-demo.iml
 /.idea/vcs.xml
+/.idea/prettier.xml
