@@ -1,22 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import CandlestickChart from "react-candlestick-chart";
 import data from "./data";
 
-function Candlestick() {
-  const [width, setWidth] = useState<number>(0);
-  const [height, setHeight] = useState<number>(0);
-
-  const resizeHandler = () => {
-    setWidth(window.innerWidth);
-    setHeight(window.innerHeight);
-  };
-  useEffect(() => {
-    resizeHandler();
-
-    window.addEventListener("resize", resizeHandler);
-    return () => window.removeEventListener("resize", resizeHandler);
-  }, []);
-
+const Candlestick: React.FC<{
+  width: number;
+  height: number;
+}> = ({ width, height }) => {
   return (
     <CandlestickChart
       data={data}
@@ -36,6 +25,6 @@ function Candlestick() {
       responsiveBreakPoint={450}
     />
   );
-}
+};
 
 export default Candlestick;
