@@ -4,6 +4,7 @@ body{
     margin: 0;
     font-family: monospace;
     color: #089981;
+    overflow: hidden;
 }
 .nav-box{
     display: flex;
