@@ -1,7 +1,9 @@
+import data from "./data";
+
 const Navbar = () => {
   return (
     <div className={"nav-box"}>
-      <div>Demo for react-candlestick-chart (2000 candles)</div>
+      <div>Demo for react-candlestick-chart ({data.length} candles)</div>
       <div className={"nav-container"}>
         <a
           href={

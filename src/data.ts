@@ -5,6 +5,12 @@ let data = [
     high: 0.8876,
     low: 0.8857,
     close: 0.8864,
+    position: {
+      positionType: "long",
+      sl: 0.8657,
+      tp: 0.9076,
+      positionValue: 0.8866499999999999,
+    },
   },
   {
     date: "2003-8-4",
@@ -215,6 +221,12 @@ let data = [
     high: 0.8961,
     low: 0.8898,
     close: 0.8945,
+    position: {
+      positionType: "long",
+      sl: 0.8698,
+      tp: 0.9161,
+      positionValue: 0.89295,
+    },
   },
   {
     date: "2003-9-11",
@@ -425,6 +437,12 @@ let data = [
     high: 0.8586,
     low: 0.8454,
     close: 0.8462,
+    position: {
+      positionType: "long",
+      sl: 0.8254,
+      tp: 0.8786,
+      positionValue: 0.8520000000000001,
+    },
   },
   {
     date: "2003-10-23",
@@ -635,6 +653,12 @@ let data = [
     high: 0.8289,
     low: 0.8245,
     close: 0.8256,
+    position: {
+      positionType: "short",
+      sl: 0.8489,
+      tp: 0.8045,
+      positionValue: 0.8267,
+    },
   },
   {
     date: "2003-12-4",
@@ -845,6 +869,12 @@ let data = [
     high: 0.792,
     low: 0.7821,
     close: 0.7903,
+    position: {
+      positionType: "short",
+      sl: 0.812,
+      tp: 0.7621,
+      positionValue: 0.78705,
+    },
   },
   {
     date: "2004-1-15",
@@ -1055,6 +1085,12 @@ let data = [
     high: 0.8019,
     low: 0.787,
     close: 0.8003,
+    position: {
+      positionType: "short",
+      sl: 0.8219,
+      tp: 0.767,
+      positionValue: 0.79445,
+    },
   },
   {
     date: "2004-2-26",
@@ -1265,6 +1301,12 @@ let data = [
     high: 0.8302,
     low: 0.8198,
     close: 0.822,
+    position: {
+      positionType: "short",
+      sl: 0.8502000000000001,
+      tp: 0.7998,
+      positionValue: 0.825,
+    },
   },
   {
     date: "2004-4-8",
@@ -1475,6 +1517,12 @@ let data = [
     high: 0.8378,
     low: 0.8302,
     close: 0.8334,
+    position: {
+      positionType: "short",
+      sl: 0.8578,
+      tp: 0.8102,
+      positionValue: 0.8340000000000001,
+    },
   },
   {
     date: "2004-5-20",
@@ -1685,6 +1733,12 @@ let data = [
     high: 0.829,
     low: 0.8189,
     close: 0.8197,
+    position: {
+      positionType: "long",
+      sl: 0.7988999999999999,
+      tp: 0.849,
+      positionValue: 0.82395,
+    },
   },
   {
     date: "2004-7-1",
@@ -1895,6 +1949,12 @@ let data = [
     high: 0.8183,
     low: 0.8117,
     close: 0.8173,
+    position: {
+      positionType: "long",
+      sl: 0.7917,
+      tp: 0.8383,
+      positionValue: 0.815,
+    },
   },
   {
     date: "2004-8-11",
@@ -2105,6 +2165,12 @@ let data = [
     high: 0.822,
     low: 0.8099,
     close: 0.8114,
+    position: {
+      positionType: "long",
+      sl: 0.7898999999999999,
+      tp: 0.842,
+      positionValue: 0.81595,
+    },
   },
   {
     date: "2004-9-22",
@@ -2315,6 +2381,12 @@ let data = [
     high: 0.7897,
     low: 0.7844,
     close: 0.7865,
+    position: {
+      positionType: "long",
+      sl: 0.7644,
+      tp: 0.8097,
+      positionValue: 0.78705,
+    },
   },
   {
     date: "2004-11-3",
@@ -2525,6 +2597,12 @@ let data = [
     high: 0.7543,
     low: 0.7499,
     close: 0.7516,
+    position: {
+      positionType: "short",
+      sl: 0.7743,
+      tp: 0.7299,
+      positionValue: 0.7521,
+    },
   },
   {
     date: "2004-12-15",
@@ -2735,6 +2813,12 @@ let data = [
     high: 0.7676,
     low: 0.7634,
     close: 0.767,
+    position: {
+      positionType: "short",
+      sl: 0.7876,
+      tp: 0.7434,
+      positionValue: 0.7655,
+    },
   },
   {
     date: "2005-1-25",
@@ -2945,6 +3029,12 @@ let data = [
     high: 0.7637,
     low: 0.7595,
     close: 0.7632,
+    position: {
+      positionType: "long",
+      sl: 0.7394999999999999,
+      tp: 0.7837000000000001,
+      positionValue: 0.7616,
+    },
   },
   {
     date: "2005-3-4",
@@ -3155,6 +3245,12 @@ let data = [
     high: 0.7776,
     low: 0.7687,
     close: 0.7751,
+    position: {
+      positionType: "short",
+      sl: 0.7976,
+      tp: 0.7487,
+      positionValue: 0.77315,
+    },
   },
   {
     date: "2005-4-13",
@@ -3365,6 +3461,12 @@ let data = [
     high: 0.7979,
     low: 0.7902,
     close: 0.7969,
+    position: {
+      positionType: "short",
+      sl: 0.8179000000000001,
+      tp: 0.7702,
+      positionValue: 0.79405,
+    },
   },
   {
     date: "2005-5-23",
@@ -3575,6 +3677,12 @@ let data = [
     high: 0.8379,
     low: 0.8262,
     close: 0.8363,
+    position: {
+      positionType: "long",
+      sl: 0.8062,
+      tp: 0.8579,
+      positionValue: 0.83205,
+    },
   },
   {
     date: "2005-7-4",
@@ -3785,6 +3893,12 @@ let data = [
     high: 0.8079,
     low: 0.8008,
     close: 0.8039,
+    position: {
+      positionType: "long",
+      sl: 0.7807999999999999,
+      tp: 0.8279,
+      positionValue: 0.8043499999999999,
+    },
   },
   {
     date: "2005-8-15",
@@ -3995,6 +4109,12 @@ let data = [
     high: 0.8319,
     low: 0.8221,
     close: 0.8306,
+    position: {
+      positionType: "short",
+      sl: 0.8519,
+      tp: 0.8021,
+      positionValue: 0.827,
+    },
   },
   {
     date: "2005-9-26",
@@ -4205,6 +4325,12 @@ let data = [
     high: 0.8382,
     low: 0.8275,
     close: 0.837,
+    position: {
+      positionType: "short",
+      sl: 0.8582,
+      tp: 0.8075,
+      positionValue: 0.83285,
+    },
   },
   {
     date: "2005-11-4",
@@ -4415,6 +4541,12 @@ let data = [
     high: 0.8381,
     low: 0.8307,
     close: 0.836,
+    position: {
+      positionType: "short",
+      sl: 0.8581,
+      tp: 0.8107,
+      positionValue: 0.8344,
+    },
   },
   {
     date: "2005-12-16",
@@ -4625,6 +4757,12 @@ let data = [
     high: 0.8314,
     low: 0.8258,
     close: 0.8277,
+    position: {
+      positionType: "long",
+      sl: 0.8058,
+      tp: 0.8514,
+      positionValue: 0.8286,
+    },
   },
   {
     date: "2006-2-3",
@@ -4835,6 +4973,12 @@ let data = [
     high: 0.8239,
     low: 0.8192,
     close: 0.8205,
+    position: {
+      positionType: "long",
+      sl: 0.7992,
+      tp: 0.8439,
+      positionValue: 0.82155,
+    },
   },
   {
     date: "2006-3-20",
@@ -5045,6 +5189,12 @@ let data = [
     high: 0.799,
     low: 0.7911,
     close: 0.7918,
+    position: {
+      positionType: "long",
+      sl: 0.7711,
+      tp: 0.8190000000000001,
+      positionValue: 0.79505,
+    },
   },
   {
     date: "2006-5-1",
@@ -5255,6 +5405,12 @@ let data = [
     high: 0.7942,
     low: 0.7885,
     close: 0.7916,
+    position: {
+      positionType: "long",
+      sl: 0.7685,
+      tp: 0.8142,
+      positionValue: 0.79135,
+    },
   },
   {
     date: "2006-6-12",
@@ -5465,6 +5621,12 @@ let data = [
     high: 0.7921,
     low: 0.787,
     close: 0.7875,
+    position: {
+      positionType: "long",
+      sl: 0.767,
+      tp: 0.8121,
+      positionValue: 0.78955,
+    },
   },
   {
     date: "2006-7-24",
@@ -5675,6 +5837,12 @@ let data = [
     high: 0.7841,
     low: 0.7783,
     close: 0.7792,
+    position: {
+      positionType: "long",
+      sl: 0.7583,
+      tp: 0.8041,
+      positionValue: 0.7812,
+    },
   },
   {
     date: "2006-9-4",
@@ -5885,6 +6053,12 @@ let data = [
     high: 0.8013,
     low: 0.795,
     close: 0.7982,
+    position: {
+      positionType: "short",
+      sl: 0.8213,
+      tp: 0.775,
+      positionValue: 0.79815,
+    },
   },
   {
     date: "2006-10-16",
@@ -6095,6 +6269,12 @@ let data = [
     high: 0.7726,
     low: 0.7628,
     close: 0.7638,
+    position: {
+      positionType: "short",
+      sl: 0.7926,
+      tp: 0.7428,
+      positionValue: 0.7677,
+    },
   },
   {
     date: "2006-11-27",
@@ -6305,6 +6485,12 @@ let data = [
     high: 0.7705,
     low: 0.763,
     close: 0.7692,
+    position: {
+      positionType: "long",
+      sl: 0.743,
+      tp: 0.7905,
+      positionValue: 0.76675,
+    },
   },
   {
     date: "2007-1-8",
@@ -6515,6 +6701,12 @@ let data = [
     high: 0.7639,
     low: 0.7607,
     close: 0.7612,
+    position: {
+      positionType: "short",
+      sl: 0.7839,
+      tp: 0.7407,
+      positionValue: 0.7623,
+    },
   },
   {
     date: "2007-2-19",
@@ -6725,6 +6917,12 @@ let data = [
     high: 0.7502,
     low: 0.7472,
     close: 0.7481,
+    position: {
+      positionType: "long",
+      sl: 0.7272,
+      tp: 0.7702,
+      positionValue: 0.7486999999999999,
+    },
   },
   {
     date: "2007-4-3",
@@ -6935,6 +7133,12 @@ let data = [
     high: 0.7396,
     low: 0.7375,
     close: 0.7384,
+    position: {
+      positionType: "short",
+      sl: 0.7596,
+      tp: 0.7175,
+      positionValue: 0.73855,
+    },
   },
   {
     date: "2007-5-15",
@@ -7145,6 +7349,12 @@ let data = [
     high: 0.7443,
     low: 0.7421,
     close: 0.7427,
+    position: {
+      positionType: "long",
+      sl: 0.7221,
+      tp: 0.7643,
+      positionValue: 0.7432,
+    },
   },
   {
     date: "2007-6-26",
@@ -7355,6 +7565,12 @@ let data = [
     high: 0.7258,
     low: 0.7225,
     close: 0.7242,
+    position: {
+      positionType: "short",
+      sl: 0.7458,
+      tp: 0.7025,
+      positionValue: 0.7241500000000001,
+    },
   },
   {
     date: "2007-8-7",
@@ -7565,6 +7781,12 @@ let data = [
     high: 0.7222,
     low: 0.7199,
     close: 0.7212,
+    position: {
+      positionType: "short",
+      sl: 0.7422,
+      tp: 0.6999,
+      positionValue: 0.72105,
+    },
   },
   {
     date: "2007-9-18",
@@ -7775,6 +7997,12 @@ let data = [
     high: 0.6957,
     low: 0.6926,
     close: 0.6936,
+    position: {
+      positionType: "long",
+      sl: 0.6726,
+      tp: 0.7157,
+      positionValue: 0.69415,
+    },
   },
   {
     date: "2007-10-30",
@@ -7985,6 +8213,12 @@ let data = [
     high: 0.6832,
     low: 0.6786,
     close: 0.6799,
+    position: {
+      positionType: "long",
+      sl: 0.6586,
+      tp: 0.7032,
+      positionValue: 0.6809000000000001,
+    },
   },
   {
     date: "2007-12-11",
@@ -8195,6 +8429,12 @@ let data = [
     high: 0.6854,
     low: 0.684,
     close: 0.6851,
+    position: {
+      positionType: "long",
+      sl: 0.664,
+      tp: 0.7054,
+      positionValue: 0.6847000000000001,
+    },
   },
   {
     date: "2008-1-21",
@@ -8405,6 +8645,12 @@ let data = [
     high: 0.6745,
     low: 0.6738,
     close: 0.6741,
+    position: {
+      positionType: "long",
+      sl: 0.6537999999999999,
+      tp: 0.6945,
+      positionValue: 0.67415,
+    },
   },
   {
     date: "2008-2-25",
@@ -8615,6 +8861,12 @@ let data = [
     high: 0.6427,
     low: 0.6334,
     close: 0.6403,
+    position: {
+      positionType: "short",
+      sl: 0.6627000000000001,
+      tp: 0.6134,
+      positionValue: 0.63805,
+    },
   },
   {
     date: "2008-4-2",
@@ -8825,6 +9077,12 @@ let data = [
     high: 0.6482,
     low: 0.6424,
     close: 0.6465,
+    position: {
+      positionType: "long",
+      sl: 0.6224,
+      tp: 0.6682,
+      positionValue: 0.6453,
+    },
   },
   {
     date: "2008-5-14",
@@ -9035,6 +9293,12 @@ let data = [
     high: 0.6457,
     low: 0.6401,
     close: 0.6421,
+    position: {
+      positionType: "long",
+      sl: 0.6201,
+      tp: 0.6657000000000001,
+      positionValue: 0.6429,
+    },
   },
   {
     date: "2008-6-25",
@@ -9245,6 +9509,12 @@ let data = [
     high: 0.6475,
     low: 0.6424,
     close: 0.6466,
+    position: {
+      positionType: "long",
+      sl: 0.6224,
+      tp: 0.6675,
+      positionValue: 0.6449499999999999,
+    },
   },
   {
     date: "2008-8-6",
@@ -9455,6 +9725,12 @@ let data = [
     high: 0.7108,
     low: 0.7001,
     close: 0.7058,
+    position: {
+      positionType: "short",
+      sl: 0.7308,
+      tp: 0.6800999999999999,
+      positionValue: 0.7054499999999999,
+    },
   },
   {
     date: "2008-9-17",
@@ -9665,6 +9941,12 @@ let data = [
     high: 0.8112,
     low: 0.7785,
     close: 0.7809,
+    position: {
+      positionType: "short",
+      sl: 0.8312,
+      tp: 0.7585,
+      positionValue: 0.7948500000000001,
+    },
   },
   {
     date: "2008-10-29",
@@ -9875,6 +10157,12 @@ let data = [
     high: 0.7816,
     low: 0.7691,
     close: 0.7736,
+    position: {
+      positionType: "short",
+      sl: 0.8016,
+      tp: 0.7491,
+      positionValue: 0.77535,
+    },
   },
   {
     date: "2008-12-10",
@@ -10085,6 +10373,12 @@ let data = [
     high: 0.7787,
     low: 0.7632,
     close: 0.7762,
+    position: {
+      positionType: "long",
+      sl: 0.7432,
+      tp: 0.7987,
+      positionValue: 0.77095,
+    },
   },
   {
     date: "2009-1-21",
@@ -10295,6 +10589,12 @@ let data = [
     high: 0.7987,
     low: 0.7886,
     close: 0.7982,
+    position: {
+      positionType: "long",
+      sl: 0.7686,
+      tp: 0.8187,
+      positionValue: 0.79365,
+    },
   },
   {
     date: "2009-3-4",
@@ -10505,6 +10805,12 @@ let data = [
     high: 0.7563,
     low: 0.7475,
     close: 0.7539,
+    position: {
+      positionType: "long",
+      sl: 0.7275,
+      tp: 0.7763,
+      positionValue: 0.7519,
+    },
   },
   {
     date: "2009-4-15",
@@ -10715,6 +11021,12 @@ let data = [
     high: 0.7217,
     low: 0.7131,
     close: 0.7147,
+    position: {
+      positionType: "long",
+      sl: 0.6930999999999999,
+      tp: 0.7417,
+      positionValue: 0.7174,
+    },
   },
   {
     date: "2009-5-27",
@@ -10925,6 +11237,12 @@ let data = [
     high: 0.7202,
     low: 0.7116,
     close: 0.7196,
+    position: {
+      positionType: "long",
+      sl: 0.6916,
+      tp: 0.7402,
+      positionValue: 0.7159,
+    },
   },
   {
     date: "2009-7-8",
@@ -11135,6 +11453,12 @@ let data = [
     high: 0.7102,
     low: 0.7009,
     close: 0.7019,
+    position: {
+      positionType: "short",
+      sl: 0.7302000000000001,
+      tp: 0.6809,
+      positionValue: 0.70555,
+    },
   },
   {
     date: "2009-8-20",
@@ -11345,6 +11669,12 @@ let data = [
     high: 0.6862,
     low: 0.6815,
     close: 0.6825,
+    position: {
+      positionType: "short",
+      sl: 0.7062,
+      tp: 0.6615,
+      positionValue: 0.6838500000000001,
+    },
   },
   {
     date: "2009-10-1",
@@ -11555,6 +11885,12 @@ let data = [
     high: 0.669,
     low: 0.6644,
     close: 0.6675,
+    position: {
+      positionType: "long",
+      sl: 0.6444,
+      tp: 0.6890000000000001,
+      positionValue: 0.6667000000000001,
+    },
   },
   {
     date: "2009-11-12",
@@ -11765,6 +12101,12 @@ let data = [
     high: 0.7027,
     low: 0.696,
     close: 0.6977,
+    position: {
+      positionType: "long",
+      sl: 0.6759999999999999,
+      tp: 0.7227,
+      positionValue: 0.6993499999999999,
+    },
   },
   {
     date: "2009-12-24",
@@ -11975,6 +12317,12 @@ let data = [
     high: 0.7205,
     low: 0.7129,
     close: 0.7195,
+    position: {
+      positionType: "long",
+      sl: 0.6929,
+      tp: 0.7405,
+      positionValue: 0.7167,
+    },
   },
   {
     date: "2010-2-4",
@@ -12185,6 +12533,12 @@ let data = [
     high: 0.7287,
     low: 0.7236,
     close: 0.7281,
+    position: {
+      positionType: "long",
+      sl: 0.7036,
+      tp: 0.7487,
+      positionValue: 0.7261500000000001,
+    },
   },
   {
     date: "2010-3-18",
@@ -12395,6 +12749,12 @@ let data = [
     high: 0.7627,
     low: 0.7537,
     close: 0.7578,
+    position: {
+      positionType: "short",
+      sl: 0.7827000000000001,
+      tp: 0.7337,
+      positionValue: 0.7582,
+    },
   },
   {
     date: "2010-4-29",
@@ -12605,6 +12965,12 @@ let data = [
     high: 0.839,
     low: 0.8282,
     close: 0.8342,
+    position: {
+      positionType: "short",
+      sl: 0.859,
+      tp: 0.8082,
+      positionValue: 0.8336,
+    },
   },
   {
     date: "2010-6-10",
@@ -12815,6 +13181,12 @@ let data = [
     high: 0.7857,
     low: 0.7744,
     close: 0.7838,
+    position: {
+      positionType: "short",
+      sl: 0.8057,
+      tp: 0.7544,
+      positionValue: 0.7800499999999999,
+    },
   },
   {
     date: "2010-7-22",
@@ -13025,6 +13397,12 @@ let data = [
     high: 0.79,
     low: 0.7778,
     close: 0.7816,
+    position: {
+      positionType: "long",
+      sl: 0.7578,
+      tp: 0.81,
+      positionValue: 0.7839,
+    },
   },
   {
     date: "2010-9-2",
@@ -13235,6 +13613,12 @@ let data = [
     high: 0.719,
     low: 0.7142,
     close: 0.7152,
+    position: {
+      positionType: "short",
+      sl: 0.739,
+      tp: 0.6941999999999999,
+      positionValue: 0.7165999999999999,
+    },
   },
   {
     date: "2010-10-14",
@@ -13445,6 +13829,12 @@ let data = [
     high: 0.753,
     low: 0.745,
     close: 0.7487,
+    position: {
+      positionType: "long",
+      sl: 0.725,
+      tp: 0.773,
+      positionValue: 0.749,
+    },
   },
   {
     date: "2010-11-25",
@@ -13655,6 +14045,12 @@ let data = [
     high: 0.7621,
     low: 0.7505,
     close: 0.7602,
+    position: {
+      positionType: "short",
+      sl: 0.7821,
+      tp: 0.7304999999999999,
+      positionValue: 0.7563,
+    },
   },
   {
     date: "2011-1-6",
@@ -13865,6 +14261,12 @@ let data = [
     high: 0.743,
     low: 0.7359,
     close: 0.7367,
+    position: {
+      positionType: "long",
+      sl: 0.7159,
+      tp: 0.763,
+      positionValue: 0.7394499999999999,
+    },
   },
   {
     date: "2011-2-17",
