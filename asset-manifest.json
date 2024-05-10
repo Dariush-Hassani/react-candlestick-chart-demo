@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-candlestick-chart-demo/static/css/main.e7cca795.css",
+    "main.js": "/react-candlestick-chart-demo/static/js/main.efceddbe.js",
+    "index.html": "/react-candlestick-chart-demo/index.html",
+    "main.e7cca795.css.map": "/react-candlestick-chart-demo/static/css/main.e7cca795.css.map",
+    "main.efceddbe.js.map": "/react-candlestick-chart-demo/static/js/main.efceddbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7cca795.css",
+    "static/js/main.efceddbe.js"
+  ]
+}
