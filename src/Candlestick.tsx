@@ -11,7 +11,7 @@ const Candlestick: React.FC<{
       data={data}
       id={"chart1"}
       width={width}
-      height={height - 80}
+      height={height}
       decimal={5}
       scrollZoom={{
         enable: true,
@@ -22,7 +22,7 @@ const Candlestick: React.FC<{
         height: 150,
         initialRange: { type: "month", value: 12 },
       }}
-      responsiveBreakPoint={450}
+      responsiveBreakPoint={500}
     />
   );
 };

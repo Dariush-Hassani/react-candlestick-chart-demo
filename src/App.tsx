@@ -2,14 +2,34 @@ import Navbar from "./Navbar";
 import Candlestick from "./Candlestick";
 import Footer from "./Footer";
 import { useEffect, useState } from "react";
+import MobileNavbar from "./MobileNavbar";
 
 const App = () => {
   const [width, setWidth] = useState<number>(0);
   const [height, setHeight] = useState<number>(0);
 
+  const [isResponsive, setIsResponsive] = useState<number>(0);
+
   const resizeHandler = () => {
-    setWidth(window.innerWidth);
-    setHeight(window.innerHeight);
+    setWidth(
+      window.visualViewport
+        ? (window.visualViewport?.width as number)
+        : window.innerWidth,
+    );
+    setHeight(
+      window.visualViewport
+        ? (window.visualViewport?.height as number)
+        : window.innerHeight,
+    );
+    setIsResponsive(
+      window.visualViewport
+        ? window.visualViewport?.width < 970
+          ? 1
+          : 2
+        : window.innerWidth < 970
+          ? 1
+          : 2,
+    );
   };
   useEffect(() => {
     resizeHandler();
@@ -19,27 +39,18 @@ const App = () => {
   }, []);
   return (
     <>
-      {width < 970 ? (
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "100vh",
-            padding: "20px",
-            textAlign: "center",
-          }}
-        >
-          This demo only is available for desktops. Mobile version will be
-          available in a few days ...
-        </div>
+      {isResponsive === 1 ? (
+        <MobileNavbar />
+      ) : isResponsive === 2 ? (
+        <Navbar />
       ) : (
-        <>
-          <Navbar />
-          <Candlestick width={width} height={height} />
-          <Footer />
-        </>
-      )}
+        <></>
+      )}{" "}
+      <Candlestick
+        width={width}
+        height={isResponsive ? height - 70 : height - 80}
+      />
+      <Footer />
     </>
   );
 };
