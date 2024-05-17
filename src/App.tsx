@@ -48,7 +48,7 @@ const App = () => {
       )}{" "}
       <Candlestick
         width={width}
-        height={isResponsive ? height - 70 : height - 80}
+        height={isResponsive === 1 ? height - 70 : height - 80}
       />
       <Footer />
     </>
