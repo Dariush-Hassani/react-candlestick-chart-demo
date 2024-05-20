@@ -13,7 +13,7 @@
     "@types/react-dom": "^18.3.0",
     "gh-pages": "^6.1.1",
     "react": "^18.3.1",
-    "react-candlestick-chart": "^1.0.13",
+    "react-candlestick-chart": "^1.0.14",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
