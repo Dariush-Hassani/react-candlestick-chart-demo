@@ -82,3 +82,28 @@ body{
     border-radius: 15px;
     font-size: 15px;
 }
+
+.chart-side-container{
+    display: flex;
+}
+
+.side-container{
+    width: 300px;
+    border-right: 1px solid #089981;
+}
+.prop-container{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.prop-value{
+    margin-top: 10px;
+}
+.prop-value input{
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid #009b84;
+    background: none;
+    width: 100px;
+    color: white;
+    padding: 3px;
+}
